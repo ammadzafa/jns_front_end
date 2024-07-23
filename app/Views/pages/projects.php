@@ -18,8 +18,8 @@
       <!-- Latest Projects-->
       <section class="section section-sm section-fluid bg-default text-center" id="projects">
         <div class="container-fluid">
-          <h2 class="wow fadeInLeft">Latest Projects</h2>
-          <p class="quote-jean wow fadeInRight" data-wow-delay=".1s">In our portfolio, you can browse the latest products developed for our clients for different corporate purposes. Our qualified team of interface designers and software developers is always ready to create something unique for you.</p>
+          <h2 class="wow fadeInLeft"><?=$alldata[0]['heading']?></h2>
+          <p class="quote-jean wow fadeInRight" data-wow-delay=".1s"><?=$alldata[0]['detail_data']?></p>
           <div class="isotope-filters isotope-filters-horizontal">
             <button class="isotope-filters-toggle button button-md button-icon button-icon-right button-default-outline button-wapasha" data-custom-toggle="#isotope-3" data-custom-toggle-hide-on-blur="true" data-custom-toggle-disable-on-blur="true"><span class="icon fa fa-caret-down"></span>Filter</button>
             <ul class="isotope-filters-list" id="isotope-3">
